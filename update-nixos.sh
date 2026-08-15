@@ -2,5 +2,6 @@
 
 set -e
 
+cd /home/jonathankjorlaug/memoryalphaConfig
 git pull
-sudo nixos-rebuild switch --flake /home/jonathankjorlaug/memoryalphaConfig --impure
+sudo nixos-rebuild switch --flake . --impure
