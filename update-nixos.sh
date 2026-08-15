@@ -3,4 +3,4 @@
 set -e
 
 git pull
-sudo nixos-rebuild switch --flake . --impure
+sudo nixos-rebuild switch --flake /home/jonathankjorlaug/memoryalphaConfig --impure
