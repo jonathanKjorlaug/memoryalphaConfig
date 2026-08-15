@@ -1,7 +1,7 @@
 {...}: {
     services.nextcloud = {
         enable = true;
-        hostName = "localhost";
+        hostName = "79.76.54.208";
         config.adminpassFile = "/etc/nextcloud-admin-pass";
         config.dbtype = "sqlite";
         settings = {
