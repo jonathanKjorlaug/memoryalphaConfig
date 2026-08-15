@@ -9,6 +9,7 @@
 }: {
     imports = [
         /etc/nixos/hardware-configuration.nix
+        ./modules
     ];
 
     nix.settings.experimental-features = ["nix-command" "flakes"];
